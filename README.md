@@ -8,14 +8,14 @@ Mini-projet de démonstration : extraire des indicateurs de vaccination d'un ser
 
 ## Architecture
 
-'''mermaid
+```mermaid
 flowchart LR
     A[DHIS2 démo<br/>API analytics, indicateurs, unités d'org.] -->|extract_load.py| B[Bronze<br/>fichiers JSON/CSV + tables BigQuery]
     B -->|sql/silver| C[Silver<br/>dimensions + fait mensuel + dq_flag]
     C -->|sql/gold| D[Gold<br/>couvertures, synthèse, qualité]
     C -.->|sql/tests + pytest| E[Tests de qualité]
     D --> F[Looker Studio]
-'''
+```
 
 | Couche | Contenu |
 |---|---|
@@ -25,7 +25,7 @@ flowchart LR
 
 ## Contenu du dépôt
 
-'''
+```
 extract_load.py          Extraction DHIS2 et chargement Bronze (BigQuery)
 run_sql.py               Exécute Silver, Gold et les tests SQL dans BigQuery
 sql/silver, sql/gold     Transformations (BigQuery SQL)
@@ -33,7 +33,7 @@ sql/tests                Tests SQL : chacun doit retourner 0 ligne
 tests/                   Tests pytest sur les fichiers Bronze (sans BigQuery)
 data/bronze/2026-10-22   Extraction figée utilisée pour ce projet
 docs/                    Constats de qualité des données, guide du tableau de bord
-'''
+```
 
 ## Reproductibilité
 
@@ -41,7 +41,7 @@ L'extraction figée dans `data/bronze/2026-10-22/` vient du serveur `https://pla
 
 ## Démarrage rapide
 
-'''bash
+```bash
 pip install -r requirements.txt
 
 # 1. Tests sur les données figées (aucun compte nécessaire)
@@ -58,7 +58,7 @@ gcloud auth application-default login
 export BQ_PROJECT=mon-projet BQ_DATASET=vaccination_bronze BQ_LOCATION=US
 python extract_load.py --load         # couche Bronze
 python run_sql.py                     # Silver, Gold, puis tests SQL
-'''
+```
 
 Sous PowerShell, remplace `export VAR=valeur` par `$env:VAR = "valeur"`.
 
