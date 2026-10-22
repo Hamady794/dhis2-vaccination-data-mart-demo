@@ -4,7 +4,7 @@ Mini-projet de démonstration : extraire des indicateurs de vaccination d'un ser
 
 > Les données proviennent du serveur de **démonstration public** de DHIS2 (Sierra Leone). Ce sont des données fictives, qui ne reflètent pas la situation réelle du pays.
 
-**Auteur :** _[à compléter]_ · **Tableau de bord Looker Studio :** _[lien à ajouter]_
+**Auteur :** _Hamady_ · **Tableau de bord Looker Studio :** 
 
 ## Architecture
 
