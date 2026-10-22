@@ -1,0 +1,18 @@
+indicator_id,name,numerator,denominator,annualized,indicator_type,factor
+iCBpPh3ehjg,BCG Coverage - Adjusted for reporting,(#{s46m5MS0hxu.V6L425pT3A0}+#{s46m5MS0hxu.Prlt0C1RF0s})*(R{BfMAe6Itzgt.REPORTING_RATE}/100),#{DTVRnCGamkV},True,Per cent,100
+FnYCr2EAzWS,BCG Coverage <1y,#{s46m5MS0hxu.V6L425pT3A0}+#{s46m5MS0hxu.Prlt0C1RF0s},#{DTVRnCGamkV},True,Per cent,100
+OEWO2PpiUKx,BCG Stock PHU,#{t99PL3gUxIl}+#{axVhq1itoQD}-#{p1MDHOT6ENy}-#{cZnQDuF3IDz},1,False,Number (Factor 1),1
+EdN7qlmI5FS,Dropout rate Penta 1 - 3,((#{fClA2Erf6IO.Prlt0C1RF0s}+#{fClA2Erf6IO.V6L425pT3A0})-(#{n6aMJNLdvep.Prlt0C1RF0s}+#{n6aMJNLdvep.V6L425pT3A0})),(#{fClA2Erf6IO.Prlt0C1RF0s}+#{fClA2Erf6IO.V6L425pT3A0}),False,Per cent,100
+d9thHOJMROr,Dropout rate Penta 1 - Measles,(#{fClA2Erf6IO.Prlt0C1RF0s}+#{fClA2Erf6IO.V6L425pT3A0})-(#{YtbsuPPo010.Prlt0C1RF0s}+#{YtbsuPPo010.V6L425pT3A0}),(#{fClA2Erf6IO.Prlt0C1RF0s}+#{fClA2Erf6IO.V6L425pT3A0}),False,Per cent,100
+eTDtyyaSA7f,FIC <1y,#{UOlfIjgN8X6.Prlt0C1RF0s}+#{UOlfIjgN8X6.V6L425pT3A0},#{DTVRnCGamkV},True,Per cent,100
+IT8EAeFRAat,FIC <1y - Adjusted for reporting,(#{UOlfIjgN8X6.Prlt0C1RF0s}+#{UOlfIjgN8X6.V6L425pT3A0})*(#{BfMAe6Itzgt.REPORTING_RATE}/100),#{DTVRnCGamkV},True,Per cent,100
+FbKK4ofIv5R,Measles Coverage <1y,#{YtbsuPPo010.Prlt0C1RF0s}+#{YtbsuPPo010.V6L425pT3A0},#{DTVRnCGamkV},True,Per cent,100
+loEBZlcsTlx,Measles Stock End Balance,#{vEAo4KwsAzl}+#{XNrjXqZrHD8}-#{lVknokmR4Ip}-#{FvKdfA2SuWI},1,False,Number (Factor 1),1
+n5nS0SmkUpq,OPV 0 Coverage <1y,#{x3Do5e7g4Qo.Prlt0C1RF0s}+#{x3Do5e7g4Qo.V6L425pT3A0},#{DTVRnCGamkV},True,Per cent,100
+YlTWksXEhEO,OPV 1 Coverage <1y,#{pikOziyCXbM.V6L425pT3A0}+#{pikOziyCXbM.Prlt0C1RF0s},#{DTVRnCGamkV},True,Per cent,100
+QsuBK2pMfkk,OPV 2 Coverage <1y,#{O05mAByOgAv.Prlt0C1RF0s}+#{O05mAByOgAv.V6L425pT3A0},#{DTVRnCGamkV},True,Per cent,100
+JoEzWYGdX7s,OPV 3 Coverage <1y,#{vI2csg55S9C.Prlt0C1RF0s}+#{vI2csg55S9C.V6L425pT3A0},#{DTVRnCGamkV},True,Per cent,100
+bASXd9ukRGD,OPV Stock PHU,#{iuSIObmKutb}+#{nGCLjZDn0Q4}-#{FTINmL2lehN}-#{WVrH6j3Wfye},1,False,Number (Factor 1),1
+i7WSgSJpnfu,Penta 1 Coverage <1y,#{fClA2Erf6IO.Prlt0C1RF0s}+#{fClA2Erf6IO.V6L425pT3A0},#{DTVRnCGamkV},True,Per cent,100
+Om2QoRtsncL,Penta 2 Coverage <1y,#{I78gJm4KBo7.Prlt0C1RF0s}+#{I78gJm4KBo7.V6L425pT3A0},#{DTVRnCGamkV},True,Per cent,100
+tUIlpyeeX9N,Penta 3 Coverage <1y,#{n6aMJNLdvep.Prlt0C1RF0s}+#{n6aMJNLdvep.V6L425pT3A0},#{DTVRnCGamkV},True,Per cent,100

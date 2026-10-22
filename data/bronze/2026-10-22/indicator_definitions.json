@@ -1,0 +1,155 @@
+[
+  {
+    "indicator_id": "iCBpPh3ehjg",
+    "name": "BCG Coverage - Adjusted for reporting",
+    "numerator": "(#{s46m5MS0hxu.V6L425pT3A0}+#{s46m5MS0hxu.Prlt0C1RF0s})*(R{BfMAe6Itzgt.REPORTING_RATE}/100)",
+    "denominator": "#{DTVRnCGamkV}",
+    "annualized": true,
+    "indicator_type": "Per cent",
+    "factor": 100
+  },
+  {
+    "indicator_id": "FnYCr2EAzWS",
+    "name": "BCG Coverage <1y",
+    "numerator": "#{s46m5MS0hxu.V6L425pT3A0}+#{s46m5MS0hxu.Prlt0C1RF0s}",
+    "denominator": "#{DTVRnCGamkV}",
+    "annualized": true,
+    "indicator_type": "Per cent",
+    "factor": 100
+  },
+  {
+    "indicator_id": "OEWO2PpiUKx",
+    "name": "BCG Stock PHU",
+    "numerator": "#{t99PL3gUxIl}+#{axVhq1itoQD}-#{p1MDHOT6ENy}-#{cZnQDuF3IDz}",
+    "denominator": "1",
+    "annualized": false,
+    "indicator_type": "Number (Factor 1)",
+    "factor": 1
+  },
+  {
+    "indicator_id": "EdN7qlmI5FS",
+    "name": "Dropout rate Penta 1 - 3",
+    "numerator": "((#{fClA2Erf6IO.Prlt0C1RF0s}+#{fClA2Erf6IO.V6L425pT3A0})-(#{n6aMJNLdvep.Prlt0C1RF0s}+#{n6aMJNLdvep.V6L425pT3A0}))",
+    "denominator": "(#{fClA2Erf6IO.Prlt0C1RF0s}+#{fClA2Erf6IO.V6L425pT3A0})",
+    "annualized": false,
+    "indicator_type": "Per cent",
+    "factor": 100
+  },
+  {
+    "indicator_id": "d9thHOJMROr",
+    "name": "Dropout rate Penta 1 - Measles",
+    "numerator": "(#{fClA2Erf6IO.Prlt0C1RF0s}+#{fClA2Erf6IO.V6L425pT3A0})-(#{YtbsuPPo010.Prlt0C1RF0s}+#{YtbsuPPo010.V6L425pT3A0})",
+    "denominator": "(#{fClA2Erf6IO.Prlt0C1RF0s}+#{fClA2Erf6IO.V6L425pT3A0})",
+    "annualized": false,
+    "indicator_type": "Per cent",
+    "factor": 100
+  },
+  {
+    "indicator_id": "eTDtyyaSA7f",
+    "name": "FIC <1y",
+    "numerator": "#{UOlfIjgN8X6.Prlt0C1RF0s}+#{UOlfIjgN8X6.V6L425pT3A0}",
+    "denominator": "#{DTVRnCGamkV}",
+    "annualized": true,
+    "indicator_type": "Per cent",
+    "factor": 100
+  },
+  {
+    "indicator_id": "IT8EAeFRAat",
+    "name": "FIC <1y - Adjusted for reporting",
+    "numerator": "(#{UOlfIjgN8X6.Prlt0C1RF0s}+#{UOlfIjgN8X6.V6L425pT3A0})*(#{BfMAe6Itzgt.REPORTING_RATE}/100)",
+    "denominator": "#{DTVRnCGamkV}",
+    "annualized": true,
+    "indicator_type": "Per cent",
+    "factor": 100
+  },
+  {
+    "indicator_id": "FbKK4ofIv5R",
+    "name": "Measles Coverage <1y",
+    "numerator": "#{YtbsuPPo010.Prlt0C1RF0s}+#{YtbsuPPo010.V6L425pT3A0}",
+    "denominator": "#{DTVRnCGamkV}",
+    "annualized": true,
+    "indicator_type": "Per cent",
+    "factor": 100
+  },
+  {
+    "indicator_id": "loEBZlcsTlx",
+    "name": "Measles Stock End Balance",
+    "numerator": "#{vEAo4KwsAzl}+#{XNrjXqZrHD8}-#{lVknokmR4Ip}-#{FvKdfA2SuWI}",
+    "denominator": "1",
+    "annualized": false,
+    "indicator_type": "Number (Factor 1)",
+    "factor": 1
+  },
+  {
+    "indicator_id": "n5nS0SmkUpq",
+    "name": "OPV 0 Coverage <1y",
+    "numerator": "#{x3Do5e7g4Qo.Prlt0C1RF0s}+#{x3Do5e7g4Qo.V6L425pT3A0}",
+    "denominator": "#{DTVRnCGamkV}",
+    "annualized": true,
+    "indicator_type": "Per cent",
+    "factor": 100
+  },
+  {
+    "indicator_id": "YlTWksXEhEO",
+    "name": "OPV 1 Coverage <1y",
+    "numerator": "#{pikOziyCXbM.V6L425pT3A0}+#{pikOziyCXbM.Prlt0C1RF0s}",
+    "denominator": "#{DTVRnCGamkV}",
+    "annualized": true,
+    "indicator_type": "Per cent",
+    "factor": 100
+  },
+  {
+    "indicator_id": "QsuBK2pMfkk",
+    "name": "OPV 2 Coverage <1y",
+    "numerator": "#{O05mAByOgAv.Prlt0C1RF0s}+#{O05mAByOgAv.V6L425pT3A0}",
+    "denominator": "#{DTVRnCGamkV}",
+    "annualized": true,
+    "indicator_type": "Per cent",
+    "factor": 100
+  },
+  {
+    "indicator_id": "JoEzWYGdX7s",
+    "name": "OPV 3 Coverage <1y",
+    "numerator": "#{vI2csg55S9C.Prlt0C1RF0s}+#{vI2csg55S9C.V6L425pT3A0}",
+    "denominator": "#{DTVRnCGamkV}",
+    "annualized": true,
+    "indicator_type": "Per cent",
+    "factor": 100
+  },
+  {
+    "indicator_id": "bASXd9ukRGD",
+    "name": "OPV Stock PHU",
+    "numerator": "#{iuSIObmKutb}+#{nGCLjZDn0Q4}-#{FTINmL2lehN}-#{WVrH6j3Wfye}",
+    "denominator": "1",
+    "annualized": false,
+    "indicator_type": "Number (Factor 1)",
+    "factor": 1
+  },
+  {
+    "indicator_id": "i7WSgSJpnfu",
+    "name": "Penta 1 Coverage <1y",
+    "numerator": "#{fClA2Erf6IO.Prlt0C1RF0s}+#{fClA2Erf6IO.V6L425pT3A0}",
+    "denominator": "#{DTVRnCGamkV}",
+    "annualized": true,
+    "indicator_type": "Per cent",
+    "factor": 100
+  },
+  {
+    "indicator_id": "Om2QoRtsncL",
+    "name": "Penta 2 Coverage <1y",
+    "numerator": "#{I78gJm4KBo7.Prlt0C1RF0s}+#{I78gJm4KBo7.V6L425pT3A0}",
+    "denominator": "#{DTVRnCGamkV}",
+    "annualized": true,
+    "indicator_type": "Per cent",
+    "factor": 100
+  },
+  {
+    "indicator_id": "tUIlpyeeX9N",
+    "name": "Penta 3 Coverage <1y",
+    "numerator": "#{n6aMJNLdvep.Prlt0C1RF0s}+#{n6aMJNLdvep.V6L425pT3A0}",
+    "denominator": "#{DTVRnCGamkV}",
+    "annualized": true,
+    "indicator_type": "Per cent",
+    "factor": 100
+  }
+]
